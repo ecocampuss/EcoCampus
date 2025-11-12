@@ -8,7 +8,8 @@ public class EcocampusApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EcocampusApplication.class, args);
-		System.out.println("hello");
+		System.out.println("hello1 status");
+
 
 	}
 

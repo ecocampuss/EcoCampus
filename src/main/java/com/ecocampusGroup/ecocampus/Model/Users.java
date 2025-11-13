@@ -32,15 +32,8 @@ public class Users {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
-    public Users(Long id, String name, String email, String password, Role role, String campus, LocalDateTime createdAt) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.role = role;
-        this.campus = campus;
-        this.createdAt = createdAt;
-    }
+
+
 
     public Long getId() {
         return id;

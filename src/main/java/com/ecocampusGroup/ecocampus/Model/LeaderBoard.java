@@ -1,13 +1,13 @@
 package com.ecocampusGroup.ecocampus.Model;
 
-
-import jakarta.persistence.*;
-import org.hibernate.annotations.GeneratorType;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
-@Entity
 public class LeaderBoard {
 
     @Id

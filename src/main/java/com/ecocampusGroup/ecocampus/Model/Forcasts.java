@@ -6,8 +6,7 @@ import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.util.Scanner;
+
 
 @Entity
 public class Forcasts {

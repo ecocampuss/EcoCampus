@@ -1,4 +1,4 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
 
 import jakarta.persistence.*;
@@ -91,5 +91,8 @@ public class Reports {
         this.renewable_percent = renewable_percent;
         Co2_Saved = co2_Saved;
         this.created_at = created_at;
+    }
+
+    public Reports() {
     }
 }

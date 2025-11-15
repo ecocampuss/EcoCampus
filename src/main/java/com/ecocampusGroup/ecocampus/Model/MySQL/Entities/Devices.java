@@ -1,10 +1,9 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
 
 import com.ecocampusGroup.ecocampus.Model.Enums.Status;
 import com.ecocampusGroup.ecocampus.Model.Enums.Type;
 import jakarta.persistence.*;
-import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
@@ -113,5 +112,8 @@ public class Devices {
         this.status = status;
         this.lastUpdated = lastUpdated;
         this.alerts = alerts;
+    }
+
+    public Devices() {
     }
 }

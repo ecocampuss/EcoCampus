@@ -1,13 +1,12 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
+
+@Entity
 public class LeaderBoard {
 
     @Id
@@ -70,5 +69,8 @@ public class LeaderBoard {
         this.energy_saved_kwh = energy_saved_kwh;
         this.rank_position = rank_position;
         this.updated_at = updated_at;
+    }
+
+    public LeaderBoard() {
     }
 }

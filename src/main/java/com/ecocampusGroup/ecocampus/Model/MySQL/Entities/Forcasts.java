@@ -1,6 +1,5 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
-import com.ecocampusGroup.ecocampus.Model.Enums.Level;
 import com.ecocampusGroup.ecocampus.Model.Enums.Source;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -85,5 +84,8 @@ public class Forcasts {
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Forcasts() {
     }
 }

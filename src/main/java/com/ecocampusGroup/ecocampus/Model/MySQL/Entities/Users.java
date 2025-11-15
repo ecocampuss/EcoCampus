@@ -1,4 +1,4 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
 import com.ecocampusGroup.ecocampus.Model.Enums.Role;
 import jakarta.persistence.*;
@@ -89,5 +89,8 @@ public class Users {
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Users() {
     }
 }

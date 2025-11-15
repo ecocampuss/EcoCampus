@@ -1,4 +1,4 @@
-package com.ecocampusGroup.ecocampus.Model;
+package com.ecocampusGroup.ecocampus.Model.MySQL.Entities;
 
 import com.ecocampusGroup.ecocampus.Model.Enums.Level;
 import jakarta.persistence.*;
@@ -99,5 +99,8 @@ public class Alerts {
 
     public void setDevices(Devices devices) {
         this.devices = devices;
+    }
+
+    public Alerts() {
     }
 }

@@ -1,4 +1,4 @@
-package com.ecocampusGroup.ecocampus.Model.NoSQL;
+package com.ecocampusGroup.ecocampus.Model.NoSQL.Collections;
 
 
 import jakarta.persistence.Id;
